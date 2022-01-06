@@ -1,0 +1,37 @@
+{
+  "name": "yashagarwal.in",
+  "description": "The directory of my thoughts",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yash Agarwal",
+    "email": "yashagarwaljpr@gmail.com"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "cdev": "gatsby clean && gatsby develop",
+    "cbuild": "gatsby clean && gatsby build",
+    "start": "yarn run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-image": "^2.4.0",
+    "gatsby-plugin-notifications": "^0.0.2",
+    "gatsby-plugin-react-svg": "^3.0.1",
+    "gatsby-plugin-sharp": "^4.4.0",
+    "gatsby-source-filesystem": "^4.4.0",
+    "gatsby-source-wordpress": "^6.0.0",
+    "gatsby-transformer-sharp": "^4.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
